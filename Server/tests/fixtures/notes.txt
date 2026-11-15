@@ -1,0 +1,7 @@
+# Reading notes
+
+Ownership removes the need for a garbage collector.
+
+    let v = vec![1, 2, 3];
+
+Borrowing is checked at compile time.

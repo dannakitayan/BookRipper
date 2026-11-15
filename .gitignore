@@ -1,0 +1,27 @@
+# Personal library and generated data — never published:
+# books are under their own copyright/distribution terms, and Projects/
+# holds a local SQLite index plus the reader's own notes.
+/Books/
+/Projects/
+bookripper_settings.json
+
+# Python
+Server/.venv/
+Server/**/__pycache__/
+*.pyc
+
+# Node / frontend
+Source/node_modules/
+Source/dist/
+Source/tsconfig.tsbuildinfo
+
+# Rust / Tauri
+Source/src-tauri/target/
+Source/src-tauri/gen/
+
+# Editor / tool-specific, not needed to build or run the project
+.claude/
+
+# OS noise
+.DS_Store
+Thumbs.db

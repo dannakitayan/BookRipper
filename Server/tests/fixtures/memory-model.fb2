@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0">
+<description><title-info><book-title>所有権とメモリモデル</book-title><lang>ja</lang></title-info></description>
+<body>
+<section><title><p>第1章 所有権</p></title>
+<p>すべての値には所有者となる変数がひとつだけ存在する。所有者がスコープを抜けると、値は破棄され、メモリは解放される。これが規則のすべてである。</p>
+<p>借用を使えば、所有権を奪わずに値を読むことができる。共有借用は同時に何度でも取得できるが、可変借用はひとつしか取得できない。</p>
+</section>
+<section><title><p>第2章 並行処理</p></title>
+<p>データ競合は、ダングリングポインタを防ぐのと同じ所有権の規則によって防がれる。スレッド間で値を送ると、その所有権も移動する。</p>
+<p>可視性の保証は、スレッド間の順序関係が確立された場合にのみ成立する。</p>
+</section>
+</body></FictionBook>

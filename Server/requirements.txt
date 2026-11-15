@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+httpx
+numpy
+pymupdf
+ebooklib
+beautifulsoup4
+lxml
+trafilatura
